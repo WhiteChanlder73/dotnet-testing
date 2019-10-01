@@ -13,7 +13,9 @@ namespace Account_Simulator
         {
             _balance = startingBalance;
         }
-
+        /// <summary>
+        /// Added
+        /// </summary>
         public decimal Balance
         {
             get {  return _balance; }

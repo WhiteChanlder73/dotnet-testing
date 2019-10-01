@@ -36,7 +36,6 @@ namespace Account_Simulator
                 depositTextBox.Focus();
             }
         }
-
         private void withdrawButton_Click(object sender, EventArgs e)
         {
             decimal withdrawal;
@@ -56,7 +55,7 @@ namespace Account_Simulator
                 withdrawTextBox.Focus();
             }
         }
-
+        // Added
         private void exitButton_Click(object sender, EventArgs e)
         {
             Close();
